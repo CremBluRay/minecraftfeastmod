@@ -1,12 +1,16 @@
 {
-  "gobbling": {
-    "category": "neutral",
-    "subtitle": "feastmod.subtitle.gobbling",
-    "sounds": [ "feastmod:mob/turkey/gobbling" ]
+  "ambient": {
+    "category": "mob",
+    "subtitle": "feastmod.subtitle.turkey_ambient",
+    "sounds": [
+      "feastmod:ambient"
+    ]
   },
-  "turkey_hurt": {
-    "category": "neutral",
-    "subtitle": "feastmod.subtitle.hurt",
-    "sounds": [ "feastmod:mob/turkey/hurt" ]
+  "hurt": {
+    "category": "mob",
+    "subtitle": "feastmod.subtitle.turkey_hurt",
+    "sounds": [
+      "feastmod:hurt"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "pumpkin_side": "minecraft:blocks/pumpkin_side",
-        "quartz_block_side": "minecraft:blocks/quartz_block_side",
-        "particle": "minecraft:blocks/pumpkin_side"
+        "pumpkin_side": "minecraft:block/pumpkin_side",
+        "quartz_block_side": "minecraft:block/quartz_block_side",
+        "particle": "minecraft:block/pumpkin_side"
     },
     "display": {
         "gui": {
