@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "feastmod:raw_turkey"
+  },
+  "result": "feastmod:turkey_block",
+  "experience": 2.0,
+  "cookingtime": 300
+}

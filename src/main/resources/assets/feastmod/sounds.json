@@ -1,0 +1,16 @@
+{
+  "ambient": {
+    "category": "mob",
+    "subtitle": "feastmod.subtitle.turkey_ambient",
+    "sounds": [
+      "feastmod:ambient"
+    ]
+  },
+  "hurt": {
+    "category": "mob",
+    "subtitle": "feastmod.subtitle.turkey_hurt",
+    "sounds": [
+      "feastmod:hurt"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "feastmod:yeast"
+    },
+    {
+      "item": "feastmod:flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "feastmod:dough",
+    "count": 1
+  }
+}

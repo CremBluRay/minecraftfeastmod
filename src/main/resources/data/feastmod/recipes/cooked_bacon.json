@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "feastmod:raw_bacon"
+  },
+  "result": "feastmod:cooked_bacon",
+  "experience": 0.8,
+  "cookingtime": 200
+}

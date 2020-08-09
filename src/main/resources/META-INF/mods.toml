@@ -2,9 +2,9 @@ modLoader="javafml" #mandatory
 
 loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
-license="All rights reserved"
+issueTrackerURL="https://github.com/CremBluRay/minecraftfeastmod/issues" #optional
 
-issueTrackerURL="http://my.issue.tracker/" #optional
+license="All rights reserved"
 
 [[mods]] #mandatory
 
@@ -14,7 +14,7 @@ version="1.1.0" #mandatory
 
 displayName="Feast Mod" #mandatory
 
-logoFile="examplemod.png" #optional
+logoFile="logo.png" #optional
 
 credits="Forge Wiki. Literally couldn't do anything without it." #optional
 
