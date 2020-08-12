@@ -1,0 +1,60 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "wheat_stage0": "minecraft:block/wheat_stage0"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 7, 0, 8 ], 
+            "to": [ 8, 2, 8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#wheat_stage0", "uv": [ 7, 14, 8, 16 ] },
+                "south": { "texture": "#wheat_stage0", "uv": [ 11, 14, 12, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8, 2, 8 ], 
+            "to": [ 8, 4, 9 ], 
+            "rotation": { "origin": [ 8, 8, 9 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "east": { "texture": "#wheat_stage0", "uv": [ 11, 14, 12, 16 ] },
+                "west": { "texture": "#wheat_stage0", "uv": [ 7, 14, 8, 16 ] }
+            }
+        }
+    ]
+}

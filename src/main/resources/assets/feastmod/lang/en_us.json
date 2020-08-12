@@ -10,7 +10,10 @@
   "item.feastmod.corn": "Corn",
   "item.feastmod.pancakes": "Pancakes",
   "item.feastmod.taco": "Taco",
+
   "block.feastmod.turkey_block": "Turkey",
+  "block.feastmod.corn_crop": "Corn Seeds",
+
   "item.feastmod.turkey_spawn_egg": "Turkey Spawn Egg",
   "entity.feastmod.turkey": "Turkey"
 }

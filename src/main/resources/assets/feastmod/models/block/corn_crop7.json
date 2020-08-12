@@ -1,0 +1,321 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "twisting_vines_plant": "minecraft:block/twisting_vines_plant",
+        "wheat": "minecraft:item/wheat"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "stem1",
+            "from": [ 7, 0, 8 ], 
+            "to": [ 9, 9, 8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] },
+                "south": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] }
+            }
+        },
+        {
+            "name": "stem2",
+            "from": [ 7, 0, 8 ], 
+            "to": [ 9, 9, 8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] },
+                "south": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] }
+            }
+        },
+        {
+            "name": "stem3",
+            "from": [ 7, 9, 8 ], 
+            "to": [ 9, 18, 8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] },
+                "south": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] }
+            }
+        },
+        {
+            "name": "stem4",
+            "from": [ 7, 9, 8 ], 
+            "to": [ 9, 18, 8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] },
+                "south": { "texture": "#twisting_vines_plant", "uv": [ 7, 7, 9, 16 ] }
+            }
+        },
+        {
+            "name": "corn1p1",
+            "from": [ 9.5, 17, 7 ], 
+            "to": [ 9.5, 21, 9 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn1p2",
+            "from": [ 6.5, 19, 7 ], 
+            "to": [ 6.5, 23, 9 ], 
+            "rotation": { "origin": [ 2.5, 16, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 5, 9, 9 ] }
+            }
+        },
+        {
+            "name": "corn1p3",
+            "from": [ 8, 17, 7.5 ], 
+            "to": [ 10, 21, 7.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn1p4",
+            "from": [ 8, 17, 8.5 ], 
+            "to": [ 10, 21, 8.5 ], 
+            "rotation": { "origin": [ 8, 20, 8.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn2p1",
+            "from": [ 12.5, 13, 7 ], 
+            "to": [ 12.5, 17, 9 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn2p2",
+            "from": [ 9.5, 15, 7 ], 
+            "to": [ 9.5, 19, 9 ], 
+            "rotation": { "origin": [ 2.5, 16, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 5, 9, 9 ] }
+            }
+        },
+        {
+            "name": "corn2p3",
+            "from": [ 11, 13, 7.5 ], 
+            "to": [ 13, 17, 7.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn2p4",
+            "from": [ 11, 13, 8.5 ], 
+            "to": [ 13, 17, 8.5 ], 
+            "rotation": { "origin": [ 8, 20, 8.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn3p1",
+            "from": [ 3.5, 10.75, 7 ], 
+            "to": [ 3.5, 14.75, 9 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn3p2",
+            "from": [ 3.5, 8, 7 ], 
+            "to": [ 3.5, 12, 9 ], 
+            "rotation": { "origin": [ 2.5, 16, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 5, 9, 9 ] }
+            }
+        },
+        {
+            "name": "corn3p3",
+            "from": [ 2, 10.5, 7.5 ], 
+            "to": [ 4, 14.5, 7.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn3p4",
+            "from": [ 2, 10.5, 8.5 ], 
+            "to": [ 4, 14.5, 8.5 ], 
+            "rotation": { "origin": [ 8, 20, 8.5 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn4p1",
+            "from": [ 14.5, 8, 7 ], 
+            "to": [ 14.5, 12, 9 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn4p2",
+            "from": [ 11.5, 10, 7 ], 
+            "to": [ 11.5, 14, 9 ], 
+            "rotation": { "origin": [ 2.5, 16, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 5, 9, 9 ] }
+            }
+        },
+        {
+            "name": "corn4p3",
+            "from": [ 13, 8, 7.5 ], 
+            "to": [ 15, 12, 7.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn4p4",
+            "from": [ 13, 8, 8.5 ], 
+            "to": [ 15, 12, 8.5 ], 
+            "rotation": { "origin": [ 8, 20, 8.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn5p1",
+            "from": [ 8.5, 10, 12 ], 
+            "to": [ 8.5, 14, 14 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn5p3",
+            "from": [ 7, 10, 12.5 ], 
+            "to": [ 9, 14, 12.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn5p2",
+            "from": [ 7.5, 10, 12 ], 
+            "to": [ 7.5, 14, 14 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn5p4",
+            "from": [ 7, 10, 13.5 ], 
+            "to": [ 9, 14, 13.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn6p1",
+            "from": [ 8.5, 11, 2 ], 
+            "to": [ 8.5, 15, 4 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn6p2",
+            "from": [ 7.5, 11, 2 ], 
+            "to": [ 7.5, 15, 4 ], 
+            "rotation": { "origin": [ 8.5, 20, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "east": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "west": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn6p3",
+            "from": [ 7, 11, 2.5 ], 
+            "to": [ 9, 15, 2.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        },
+        {
+            "name": "corn6p4",
+            "from": [ 7, 11, 3.5 ], 
+            "to": [ 9, 15, 3.5 ], 
+            "rotation": { "origin": [ 8, 20, 7.5 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] },
+                "south": { "texture": "#wheat", "uv": [ 7, 6, 9, 10 ] }
+            }
+        }
+    ]
+}

@@ -2,6 +2,7 @@ package com.github.crembluray.minecraftfeastmod.util;
 
 import com.github.crembluray.minecraftfeastmod.FeastMod;
 import com.github.crembluray.minecraftfeastmod.blocks.BlockItemBase;
+import com.github.crembluray.minecraftfeastmod.blocks.CornCrop;
 import com.github.crembluray.minecraftfeastmod.blocks.TurkeyBlock;
 import com.github.crembluray.minecraftfeastmod.entities.TurkeyEntity;
 import com.github.crembluray.minecraftfeastmod.items.ModSpawnEggItem;
@@ -11,6 +12,7 @@ import com.github.crembluray.minecraftfeastmod.items.food.effect.RawBacon;
 import com.github.crembluray.minecraftfeastmod.items.food.effect.RawTurkey;
 import com.github.crembluray.minecraftfeastmod.items.food.effect.Taco;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
@@ -57,9 +59,11 @@ public class RegistryHandler {
 
     // Blocks
     public static final RegistryObject<Block> TURKEY_BLOCK = BLOCKS.register("turkey_block", TurkeyBlock::new);
+    public static final RegistryObject<Block> CORN_CROP = BLOCKS.register("corn_crop", () -> new CornCrop(Block.Properties.from(Blocks.WHEAT)));
 
     // Block Items
     public static final RegistryObject<Item> TURKEY_BLOCK_ITEM = ITEMS.register("turkey_block", () -> new BlockItemBase(TURKEY_BLOCK.get()));
+    public static final RegistryObject<Item> CORN_SEED_ITEM = ITEMS.register("corn_seeds", () -> new BlockItemBase(CORN_CROP.get()));
 
     // Entity Types
     public static final RegistryObject<EntityType<TurkeyEntity>> TURKEY = ENTITY_TYPES.register("turkey",
