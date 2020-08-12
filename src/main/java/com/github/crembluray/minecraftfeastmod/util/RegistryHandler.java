@@ -10,7 +10,6 @@ import com.github.crembluray.minecraftfeastmod.items.food.*;
 import com.github.crembluray.minecraftfeastmod.items.food.effect.Dough;
 import com.github.crembluray.minecraftfeastmod.items.food.effect.RawBacon;
 import com.github.crembluray.minecraftfeastmod.items.food.effect.RawTurkey;
-import com.github.crembluray.minecraftfeastmod.items.food.effect.Taco;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
@@ -53,7 +52,6 @@ public class RegistryHandler {
     public static final RegistryObject<Corn> CORN = ITEMS.register("corn", Corn::new);
     public static final RegistryObject<Pancakes> PANCAKES = ITEMS.register("pancakes", Pancakes::new);
     public static final RegistryObject<RawBacon> RAW_BACON = ITEMS.register("raw_bacon", RawBacon::new);
-    public static final RegistryObject<Taco> TACO = ITEMS.register("taco", Taco::new);
     public static final RegistryObject<Yeast> YEAST = ITEMS.register("yeast", Yeast::new);
     public static final RegistryObject<Flour> FLOUR = ITEMS.register("flour", Flour::new);
 

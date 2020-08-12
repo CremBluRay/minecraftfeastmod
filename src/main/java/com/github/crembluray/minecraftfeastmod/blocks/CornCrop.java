@@ -17,7 +17,6 @@ public class CornCrop extends CropsBlock {
     public CornCrop(Properties builder) {
         super(builder);
     }
-
     
     @Override
     protected IItemProvider getSeedsItem() {
