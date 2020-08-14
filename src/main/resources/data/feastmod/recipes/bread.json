@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "feastmod:flour"
+      "item": "feastmod:dough"
     },
     {
-      "item": "minecraft:egg"
+      "item": "feastmod:dough"
     },
     {
-      "item": "minecraft:honey_bottle"
+      "item": "feastmod:dough"
     }
   ],
   "result": {
-    "item": "feastmod:pancakes",
+    "item": "minecraft:bread",
     "count": 1
   }
 }

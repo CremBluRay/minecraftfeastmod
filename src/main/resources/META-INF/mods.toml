@@ -21,7 +21,7 @@ credits="Forge Wiki. Literally couldn't do anything without it." #optional
 authors="CremBluRay, Pappy100" #optional
 
 description='''
-Add various new foods and entities to minecraft.
+Add various new food items and entities to Minecraft. Foods, such as the turkey, can be placed onto tables and eaten by players.
 '''
 
 [[dependencies.feastmod]] #optional
